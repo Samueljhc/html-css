@@ -72,6 +72,7 @@ main a:hover {
 
 main p {
     font-size: 1.2em;
+    text-indent: 20px;
 }
 
 main a {
