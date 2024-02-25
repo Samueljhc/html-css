@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media print {
+    
+    span#burger {
+        display: none;
+    }
+
+    menu {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    span#burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
