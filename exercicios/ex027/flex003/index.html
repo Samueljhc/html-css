@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexibe Blox</title>
+    <style>
+
+        ::-webkit-scrollbar {
+            height: 0px;
+            width: 0px;
+        }
+
+        * {
+            font-family: monospace;
+        }
+
+        div.container {
+            background-color: lightsalmon;
+            display: flex;
+            height: 500px;
+            flex-flow: row wrap;
+        }
+
+        div.item {
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+            flex: auto;
+        }
+
+        .item:hover {
+            background-color: rgba(255, 255, 255, 0.288);
+            font-weight: bold;
+            transition-duration: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+        <div class="item">Exemplo de bloco H</div>
+        <div class="item">Exemplo de bloco I</div>
+        <div class="item">Exemplo de bloco J</div>
+        <div class="item">Exemplo de bloco K</div>
+        <div class="item">Exemplo de bloco L</div>
+        <div class="item">Exemplo de bloco M</div>
+        <div class="item">Exemplo de bloco N</div>
+        <div class="item">Exemplo de bloco O</div>
+    </div>
+</body>
+</html>
